@@ -1,0 +1,145 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .fa{
+      padding-right: 5px;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        margin: 0.5rem;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        margin: 0.5rem;
+    }
+    
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+        margin: 0.5rem;
+    }
+    
+    .fa-instagram {
+        background: #bc2a8d;
+        color: white;
+        margin: 0.5rem;
+    }
+    
+    .fa-github {
+        background: #be0d2a;
+        color: white;
+        margin: 0.5rem;
+    }
+    
+    .navbar {
+      position: fixed;
+      width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color:#000000;
+        height: 10.2vh;
+    }
+    
+    .nav-link {
+        font-size: large;
+        color: #D9CAB3;
+         margin: 0px 32px;
+        text-decoration-line: none;    
+    }
+    #welcome-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#595260;
+       font-size: xx-large;
+        color: aliceblue;
+        height: 100vh;
+    }
+    #welcome-section >p{
+        font-style: italic;
+        color:#1A1A40;
+        padding-top: 2rem;
+    }
+    #projects{
+        /* text-align: center; */
+        background: #D9CAB3;
+       
+    }
+    .heading{
+        color: darkblue;
+        /* margin-left: 33.3%; */
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size:xx-large;
+    }
+      .contact-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#000000;
+       font-size: xx-large;
+        color: aliceblue;
+        /* height: 40vh; */
+        padding: 100px 0;
+    
+      }
+      .contact-header >p{
+        font-style: italic;
+        padding-top: 1em;
+      }
+      body{
+        text-align: center;
+      }
+.projects-grid{
+  
+  display: grid;
+  place-items: center;
+  grid-gap: 6rem 0rem;
+  grid-template-columns: repeat(2,2fr);
+  /* height: 70vh; */
+  padding-bottom: 100px;
+}
+.project-tile{
+  background-color:#000000;
+  color: aliceblue;
+  
+
+}
+.project-image{
+  max-width: 100%;
+  max-height: 90%;
+ 
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background:#000000;
+    border-top: 4px solid #;
+  }
+  
+  footer > p {
+    margin: 2rem;
+    
+  }
+  .fa-freecodecamp{
+    color: aliceblue;
+  }
+  @media(max-width:600px) {  
+    .projects-grid{
+      grid-template-columns: repeat(1,2fr);
+    }
+  }
+
